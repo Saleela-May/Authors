@@ -7,10 +7,22 @@
 	},
 	"item": [
 		{
-			"name": "GET_/api/v1/Activities",
+			"name": "GET_/api/v1/Authors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities",
 					"protocol": "https",
@@ -29,12 +41,24 @@
 			"response": []
 		},
 		{
-			"name": "GET_ ​/api​/v1​/Activities​/{id}",
+			"name": "GET_/api/v1/Authors/authors/books/{idBook}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities/1",
+					"raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities/25",
 					"protocol": "https",
 					"host": [
 						"fakerestapi",
@@ -45,7 +69,7 @@
 						"api",
 						"v1",
 						"Activities",
-						"1"
+						"25"
 					]
 				}
 			},
